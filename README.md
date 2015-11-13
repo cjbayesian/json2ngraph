@@ -2,4 +2,11 @@
 
 This repository contains tools for converting graphs that can be visualized with d3's force directed graph layout into a format that can be visualized in the style of the excellent [Code Galaxies project](http://anvaka.github.io/pm/)
 
+## Dependencies
 
+```
+npm install ngraph.graph
+npm install ngraph.offline.layout
+npm install ngraph.forcelayout3d
+npm install ngraph.tobinary
+```
