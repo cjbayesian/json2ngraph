@@ -2,6 +2,11 @@
 
 This repository contains tools for converting graphs that can be visualized with d3's force directed graph layout into a format that can be visualized in the style of the excellent [Code Galaxies project](http://anvaka.github.io/pm/)
 
+Turn this:
+![image](d3_graph.png)
+Into this:
+![image](3d_graph.png)
+
 ## To Run
 
 `node mk_graph.js <input .json file path> <out path>`
