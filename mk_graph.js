@@ -1,6 +1,6 @@
 
-var INPUTFILENAME = '/Users/cchivers/Desktop/hx_similarity_graph.json';
-var OUTDIR = './hx_similarity_graph';
+var INPUTFILENAME = process.argv[2]; //'/Users/cchivers/Desktop/hx_similarity_graph.json';
+var OUTDIR = process.argv[3]; // './hx_similarity_graph';
 
 
 // Read in data from JSON

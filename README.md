@@ -2,6 +2,14 @@
 
 This repository contains tools for converting graphs that can be visualized with d3's force directed graph layout into a format that can be visualized in the style of the excellent [Code Galaxies project](http://anvaka.github.io/pm/)
 
+## To Run
+
+`node mk_graph.js <input .json file path> <out path>`
+
+For example:
+
+`node mk_graph.js hx_similarity_graph.json hx_similarity_graph`
+
 ## Dependencies
 
 ```
